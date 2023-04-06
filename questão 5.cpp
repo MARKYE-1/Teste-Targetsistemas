@@ -8,17 +8,17 @@ main(){
 	
 	int b = strlen(a);
 	
-	char c[b];
+	char c[b]; //criando variavel para receber a palavra
 	
 	for(int i = 0; i<b; i++){
 		
-		c[i]= a[i];	
+		c[i]= a[i];	//atribuindo a palavra
 	}
 	
 	
 	for(int i = 0; i<b; i++){
 		
-		a[i] = c[b-i-1];
+		a[i] = c[b-i-1]; //invertendo e repassando de volta para a variavel principal
 		
 	}
 	
